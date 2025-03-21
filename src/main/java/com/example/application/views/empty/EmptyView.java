@@ -12,7 +12,6 @@ import com.vaadin.flow.theme.lumo.LumoUtility.Margin;
 
 @PageTitle("Empty")
 @Route(value = "", layout = MainLayout.class)
-@RouteAlias(value = "", layout = MainLayout.class)
 public class EmptyView extends VerticalLayout {
 
     public EmptyView() {
